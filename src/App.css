@@ -1,0 +1,158 @@
+/* START Global Styles =========== */
+.App {
+  /* padding: 0 10%; */
+}
+
+.Btn {
+  min-width: 175px;
+  background: #2AB5CA;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  height: 40px;
+  border: 1px solid #2AB5CA;
+  border-radius: 24px;
+  justify-content: flex-end;
+}
+/* END Global Styles =========== */
+
+/* START Nav.js =========== */
+.App-header {
+  background-color: white;
+  height: 70px;
+  padding: 0 10%;
+  color: #B0B9BE;
+  /* box-shadow: 0 1px #eee; */
+  display: flex;
+  flex-direction: row;
+  animation: fadeInUp 1s ease 0.2s;
+  -webkit-animation: fadeInUp 1s ease 0.2s;
+  -moz-animation: fadeInUp 1s ease 0.2s;
+  -o-animation: fadeInUp 1s ease 0.2s;
+  -ms-animation: fadeInUp 1s ease 0.2s;
+}
+.Nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Nav-link-container {
+  display: flex;
+}
+.Nav-links {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0 0 0 24px;
+}
+.Nav-links li {
+  min-width: 100px;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  list-style-type: none;
+}
+.Logo {
+  width: 68px;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@-webkit-keyframes fadeInUp {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@-moz-keyframes fadeInUp {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@-o-keyframes fadeInUp {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@-ms-keyframes fadeInUp {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+/* END Nav.js =========== */
+
+/* START Hero.js =========== */
+.Hero-container {
+  width: 100%;
+  height: 500px;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  background: url('./Assets/hero.png') no-repeat 110% 20%;
+  background-size: 75%;
+  animation: fadeInUp ease 1s 0.5s;
+  -webkit-animation: fadeInUp ease 1s 0.5s;
+  -moz-animation: fadeInUp ease 1s 0.5s;
+  -o-animation: fadeInUp ease 1s 0.5s;
+  -ms-animation: fadeInUp ease 1s 0.5s;
+}
+.Hero-row {
+  padding: 0 12%;
+  display: flex;
+  align-items: center;
+}
+.Hero-content {
+  width: 37%;
+}
+.Hero-title {
+  color: #2AB5CA;
+}
+.Hero-controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  height: 48px;
+  width: 50%;
+  margin-left: 10%;
+}
+.Hero-controls span {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background: #eee;
+}
+.Hero-control-active {
+  background: #2AB5CA !important;
+}
+/* END Hero.js =========== */
+
+
+/* START Featured.js =========== */
+.Featured-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: white;
+}
+.Featured-row {
+  width: 85%;
+}
+.Featured-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.Featured-items li {
+  box-shadow: none;
+  text-align: center;
+}
+.Featured-img {
+  width: 85%;
+}
+/* END Featured.js =========== */
