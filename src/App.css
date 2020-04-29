@@ -1,6 +1,8 @@
 /* START Global Styles =========== */
 .App {
   /* padding: 0 10%; */
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .Btn {
@@ -28,8 +30,15 @@
   border: 1px solid white;
   border-radius: 24px;
 }
+
+.mb-12 {
+  margin-bottom: 12px;
+}
 .mb-24 {
   margin-bottom: 24px;
+}
+.mb-48 {
+  margin-bottom: 48px;
 }
 /* END Global Styles =========== */
 
@@ -37,7 +46,7 @@
 .App-header {
   background-color: white;
   height: 70px;
-  padding: 0 10%;
+  padding: 24px 10% 0;
   color: #B0B9BE;
   /* box-shadow: 0 1px #eee; */
   display: flex;
@@ -104,6 +113,7 @@
 .Hero-container {
   width: 100%;
   height: 500px;
+  margin: 0 auto;
   background: #eee;
   display: flex;
   align-items: center;
@@ -229,3 +239,48 @@
 
 }
 /* END Curated.js =========== */
+
+/* START Grid.js =========== */
+.Grid-container {
+  width: 100%;
+  padding: 48px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #EDF1F2;
+}
+.Grid-section-text {
+  color: #2AB5CA;
+  text-align: center;
+}
+.Grid-row {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+}
+.Grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 263px;
+  margin: 0 6px;
+  padding: 24px;
+  background: white;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 1px 2px 3px #e7e7e7;
+}
+.Grid-item p {
+  margin: 4px 0;
+}
+.Grid-item img {
+  width: 202px;
+}
+.grid-price {
+  color: #2AB5CA;
+  font-weight: bold;
+}
+/* END Grid.js =========== */
