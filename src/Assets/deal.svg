@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="94px" viewBox="0 0 94 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle</title>
+    <g id="06_Wireframes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME-PAGE" transform="translate(-138.000000, -1349.000000)" fill="#23C0E0">
+            <g id="Ecommerce-#8" transform="translate(0.000000, 871.000000)">
+                <g id="Group-2" transform="translate(138.000000, 478.000000)">
+                    <path d="M0,0 L64,0 C80.5685425,-3.04359188e-15 94,13.4314575 94,30 L94,94 L94,94 L30,94 C13.4314575,94 2.02906125e-15,80.5685425 0,64 L0,0 L0,0 Z" id="Rectangle"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

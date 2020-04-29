@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './Components/Nav';
 import Hero from './Components/Hero';
 import Featured from './Components/Featured';
+import Curated from './Components/Curated';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <Nav/>
         <Hero />
         <Featured />
+        <Curated />        
       </div>
     );
   }
