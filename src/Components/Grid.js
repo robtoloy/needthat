@@ -20,12 +20,12 @@ const grid = () => {
         <div className="Grid-item">
           <img className="mb-12" src={g1} alt="product"/>
           <p>Product Name</p>
-          <p className="grid-price">$38.00</p>
+          <p className="grid-price">$18.00</p>
         </div>
         <div className="Grid-item">
           <img className="mb-12" src={g2} alt="product"/>
           <p>Product Name</p>
-          <p className="grid-price">$38.00</p>
+          <p className="grid-price">$28.00</p>
         </div>
         <div className="Grid-item">
           <img className="mb-12" src={g3} alt="product"/>
@@ -35,7 +35,7 @@ const grid = () => {
         <div className="Grid-item">
           <img className="mb-12" src={g4} alt="product"/>
           <p>Product Name</p>
-          <p className="grid-price">$38.00</p>
+          <p className="grid-price">$48.00</p>
         </div>
       </div>
 
@@ -45,22 +45,22 @@ const grid = () => {
         <div className="Grid-item">
           <img className="mb-12" src={g5} alt="product"/>
           <p>Product Name</p>
-          <p className="grid-price">$38.00</p>
+          <p className="grid-price">$58.00</p>
         </div>
         <div className="Grid-item">
           <img className="mb-12" src={g6} alt="product"/>
           <p>Product Name</p>
-          <p className="grid-price">$38.00</p>
+          <p className="grid-price">$68.00</p>
         </div>
         <div className="Grid-item">
           <img className="mb-12" src={g7} alt="product"/>
           <p>Product Name</p>
-          <p className="grid-price">$38.00</p>
+          <p className="grid-price">$78.00</p>
         </div>
         <div className="Grid-item">
           <img className="mb-12" src={g8} alt="product"/>
           <p>Product Name</p>
-          <p className="grid-price">$38.00</p>
+          <p className="grid-price">$88.00</p>
         </div>
       </div>
     </div>

@@ -31,15 +31,12 @@
   border-radius: 24px;
 }
 
-.mb-12 {
-  margin-bottom: 12px;
-}
-.mb-24 {
-  margin-bottom: 24px;
-}
-.mb-48 {
-  margin-bottom: 48px;
-}
+.primary { color: #2AB5CA; }
+.white { color: white; }
+.mb-12 { margin-bottom: 12px; }
+.mb-24 { margin-bottom: 24px; }
+.mb-36 { margin-bottom: 36px; }
+.mb-48 { margin-bottom: 48px; }
 /* END Global Styles =========== */
 
 /* START Nav.js =========== */
@@ -284,3 +281,108 @@
   font-weight: bold;
 }
 /* END Grid.js =========== */
+
+/* START Affiliate.js =========== */
+.Aff-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+  height: 300px;
+}
+.Aff-row {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Aff-logos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.Aff-logo {
+  width: 20%;
+  text-align: center;
+}
+.Aff-logo img {
+  width: 50%;
+}
+/* END Affiliate.js =========== */
+
+/* START Affiliate.js =========== */
+.Capture-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  padding: 24px 0;
+}
+.Capture-row {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #555A5E;
+  color: white;
+  padding: 64px 0;
+}
+.Capture-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Capture-email {
+  width: 300px;
+  height: 48px !important;
+  font-size: 16px;
+  padding-left: 24px;
+  border: none;
+}
+.Capture-btn {
+  width: 100px;
+  height: 48px;
+  border: none;
+  background: #2AB5CA;
+  color: white;
+  font-size: 16px;
+}
+/* END Affiliate.js =========== */
+
+/* START Affiliate.js =========== */
+.Footer-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #404F54;
+  padding: 48px 0 0;
+}
+.Footer-row {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.Footer-col {
+  text-align: center;
+  width: 33%;
+}
+.Footer-logo {
+  width: 75px;
+  opacity: 50%;
+}
+.Footer-end {
+  width: 100%;
+  padding: 12px 0;
+  background: #2B3538;
+  color: #8D9599;
+  text-align: center;
+  align-self: flex-end;
+}
+/* END Affiliate.js =========== */
