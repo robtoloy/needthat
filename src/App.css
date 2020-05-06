@@ -36,6 +36,13 @@
   height: 40px;
   border: 1px solid white;
   border-radius: 24px;
+  transition: 100ms ease-in-out;
+}
+.Btn-outline:hover {
+  background: #2AB5CA;
+  letter-spacing: 1px;
+  border: 1px solid #2AB5CA;
+  transition: 100ms ease-in-out;
 }
 
 .primary { color: #2AB5CA; }
