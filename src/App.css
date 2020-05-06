@@ -155,6 +155,18 @@
   background: #2AB5CA !important;
 }
 
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 400ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}
 .Modal-container {
   display: flex;
   justify-content: center;

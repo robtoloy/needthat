@@ -48,7 +48,8 @@ const hero = () => {
             onAfterOpen={afterOpenModal}
             onRequestClose={closeModal}
             style={customStyles}
-            contentLabel="Example Modal"
+            contentLabel="Product Modal"
+            closeTimeoutMS={500}
           >
             <div className="Modal-container">
               <div className="Modal-row">
