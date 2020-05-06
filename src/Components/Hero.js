@@ -59,7 +59,7 @@ const hero = () => {
                 <div className="Modal-col ml-24">
                   <h2 ref={_subtitle => (subtitle = _subtitle)}>Product Name</h2>
                   <p className="mb-24">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamquis.</p>
-                  <h3 className="mb-12">$89.99</h3>
+                  <h3 className="mb-12">$89.99  <strike className="grey">$89.99</strike></h3>
                   <button className="Btn">Get deal</button>
                 </div>
               </div>
