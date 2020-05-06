@@ -33,6 +33,8 @@
 
 .primary { color: #2AB5CA; }
 .white { color: white; }
+.ml-24 { margin-left: 24px; }
+.mr-24 { margin-right: 24px; }
 .mb-12 { margin-bottom: 12px; }
 .mb-24 { margin-bottom: 24px; }
 .mb-36 { margin-bottom: 36px; }
@@ -151,6 +153,26 @@
 }
 .Hero-control-active {
   background: #2AB5CA !important;
+}
+
+.Modal-container {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+.Modal-row {
+  display: flex;
+  flex-direction: row;
+}
+.Modal-col {
+  display: flex;
+  flex-direction: column;
+}
+.Modal-close {
+  width: 46px;
+  height: 43px;
+  background: url('./Assets/close.svg') no-repeat;
+  float: right;
 }
 /* END Hero.js =========== */
 
