@@ -16,8 +16,15 @@
   height: 40px;
   border: 1px solid #2AB5CA;
   border-radius: 24px;
+  transition: 100ms ease-in-out;
 }
-
+.Btn:hover {
+  background: #10424A;
+  font-size: 12px;
+  letter-spacing: 1px;
+  border: 1px solid #10424A;
+  transition: 100ms ease-in-out;
+}
 .Btn-outline {
   min-width: 100px;
   background: transparent;
@@ -163,6 +170,7 @@
 
 .ReactModal__Overlay--after-open{
     opacity: 1;
+    background-color: rgb(0, 21, 25, 0.75) !important;
 }
 
 .ReactModal__Overlay--before-close{
