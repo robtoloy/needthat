@@ -24,6 +24,7 @@
   letter-spacing: 1px;
   border: 1px solid #10424A;
   transition: 100ms ease-in-out;
+  cursor: pointer;
 }
 .Btn-outline {
   min-width: 100px;
@@ -43,6 +44,7 @@
   letter-spacing: 1px;
   border: 1px solid #2AB5CA;
   transition: 100ms ease-in-out;
+  cursor: pointer;
 }
 
 .primary { color: #2AB5CA; }
@@ -231,12 +233,14 @@
 }
 .Featured-btn {
   border: none;
-  transition: 100ms ease-in;
+  background: none;
+  padding: 0;
+  transition: 100ms ease-out;
 }
 .Featured-btn:hover {
   box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
-  transition: 100ms ease-out;
+  transition: 100ms ease-in;
 }
 .Featured-items li {
   box-shadow: none;
@@ -328,7 +332,13 @@
   background: white;
   text-align: center;
   border-radius: 4px;
+  border: none;
   box-shadow: 1px 2px 3px #e7e7e7;
+  transition: 200ms ease-out;
+}
+.Grid-item:hover {
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.25);
+  transition: 100ms ease-in;
 }
 .Grid-item p {
   margin: 4px 0;
