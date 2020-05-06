@@ -188,6 +188,7 @@
 .Modal-col {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .Modal-close {
   width: 46px;
